@@ -1,0 +1,90 @@
+# TYPO3 Certifications
+
+## TYPO3 CMS Certified Editor (TCCE)
+TYPO3 CMS Certified Editors are the backbone of content creation and management. They excel in crafting and curating dynamic, user-friendly web content, effortlessly handling a wide array of page and content element types meticulously designed by integrators.
+
+With expertise in handling text, images, multimedia, and forms, these proficient individuals guarantee a smooth and immersive online experience for your audience, all within the TYPO3 backend.
+
+  ### CMS Basics
+  _About a CMS_
+  A content management system is a software application for the collaborative creation, organization and editing of content, primarily in the online area.
+  _Goals:_
+    - [] I can explain what a CMS is.
+    - [] I can explain how content and design are separated in a CMS.
+    - [] I know about features and advantages using a CMS.
+
+  Frontend and backend
+  The website, or respectively layout and content output, is called a frontend. Pages and contents are maintained in the backend, and then displayed in the frontend.
+  _Goals:_
+    I can explain the difference between frontend and backend.
+    I know about the technical requirements of a browser when working with TYPO3.
+
+  Choosing a secure password
+  The security of your own data, as well as the security of each organization, depends largely on the choice of secure passwords. Too simple, too short or repetitive passwords are often hacked and misused.
+  _Goals:_
+    I know the guidelines for choosing a secure password.
+
+  Backend account
+  Access to the backend is secured by a login (username and password). A backend user can be granted rights to work with modules, pages, and content. Backend users can be grouped for easy management. For any credential issues I know how to reset my password or that the administrator is to be contacted for further issues.
+  _Goals:_
+    I know how to login into the backend.
+    I know what to do when I lost my credentials.
+    I know where to view and edit my user account details.
+    I know what multi-factor authentication is and how it increases the security of my account.
+
+  About backend users and backend user groups
+  Users of a content management system can have different permissions. This allows users to focus on the features that are relevant to them.
+  _Goals:_
+    I know that users can be granted/denied access to certain modules and operations in the backend.
+    I know what a backend user group is.
+    I know that backend users inherit all permissions from all their assigned user groups.
+
+  Roles in TYPO3
+  In content management systems, people who work with the system can have one or more roles. TYPO3 established 4 core roles, which are backed by official certification.
+  _Goals:_
+    I know the roles in TYPO3 and their corresponding tasks.
+    I know the tasks assigned to me according to my role.
+    I know whom to ask for issues that are not part of my role.
+
+  Basic usage of a browser
+  A browser is the central application for viewing and using information on the Internet. In addition to accessing or displaying web pages, web applications such as a content management system can be used. With a browser form fields can be filled out and submitted to interact with a web application.
+  _Goals:_
+    I can use a browser to reach a website or specific resource on the internet.
+    I can use forms with a browser.
+    I know that https offers a secure connection to a website and http doesn't.
+
+  Working with translations
+  TYPO3 offers the function to deliver contents, datasets as well as metadata multilingual. Content elements can be translated via a "free" or "connected" mode. The number of languages that can be editorially recorded is not limited in TYPO3.
+  _Goals:_
+    I can provide page translations in any pre-configured language.
+    I know the difference between the free and connected mode of translation and know how to configure them.
+    I can switch between the columns and the language view in the page module.
+    I can edit translated pages, content elements and data records.
+    I know the translation view in the module List.
+    I know how to provide and edit translations of file metadata.
+    I know the translation overview of the module Info.
+    I know that certain combinations of actions on content elements can lead to "mixed" mode and how to reset to "free" or "connected" mode.
+    I know that using "mixed" mode implies a lot of challenges when editing content (e.g.: changing the order of content elements).
+
+  Backend Structure
+  The backend is divided into specific navigation components. A distinction is made between top bar, module menu, page tree, docheader, content area, directory tree and directory contents.
+  _Goals:_
+    I know the backend structure.
+    I can find the module menu and explain the general tasks related to the modules.
+    I can explain the difference between page tree and file tree.
+    I can point out the content area and explain what it is used for.
+    I know where the top bar and the docheader are located and which functions I can find there.
+    I know what "Deep Links" are, how they are shared and in which scenarios they are used.
+    I know what "Bookmarks" are, how they are created and in which scenarios they are useful.
+
+
+  ### TYPO3 Basics
+  ### TYPO3 Handling
+  ### Media Management
+  ### Target Group Optimization
+
+
+## TCCI (TYPO3 Integrator)
+
+
+## TCCD (TYPO3 Developer)
