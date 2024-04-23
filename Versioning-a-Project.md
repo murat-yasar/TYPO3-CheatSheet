@@ -65,7 +65,8 @@
 
 14. Delete old branch, since it's no longer needed.
 ```bash
-  git delete <feature>
+  git branch -d <feature>
+  git push origin --delete <feature>
 ```
 
 15. Check the repo, if the branch is successfully deleted
