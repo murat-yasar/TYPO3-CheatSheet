@@ -34,7 +34,7 @@
 
 5. Install server with GUI
 ```bash
-   touch example-project-directory/public/FIRST_INSTALL
+   touch /public/FIRST_INSTALL
 ```
 
 6. Access TYPO3 via a web browser (Set username, password, etc.)
