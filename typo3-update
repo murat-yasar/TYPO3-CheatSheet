@@ -1,0 +1,65 @@
+# Update a Project 
+## TYPO3 (v10 -> v11) && PHP (v7.4 -> v8.3)
+
+1. Download project files
+  - project data
+  - DB data
+
+2. Git Environment
+```bash
+  git pull
+  git checkout -b <update_typo3-11_php83>
+  git push -u origin <update_typo3-11_php83>
+```
+
+3. Development Environment (devenv)
+```bash
+  git clone <devenv-repo>
+  git remote rm origin
+  git remote add origin <new-repo>
+```
+  - Rename the root folder to suit the project
+```bash
+  cd <project-root>
+  devenv install
+  composer install
+```
+
+4. Local Configuration   [typo3conf/LocalConfiguration.php]
+  - DB.Connections.Default.host = <host>
+  - DB.Connections.Default.user = <user>
+  - DB.Connections.Default.password = <password>
+  - DB.Connections.Default.port = <port>
+  - DB.Connections.Default.tableoptions = <tableoptions>
+
+5. Install PHP [http://localhost:8000/typo3/install.php]
+```bash
+  cd public/typo3conf
+  touch ENABLE_INSTALL_TOOL
+  vendor/bin/typo3cms backend:createadmin <user-name> <password>
+```
+  - [http://localhost:8000/typo3/install.php]: enter a password, copy the hash-code
+  - [typo3conf/LocalConfiguration.php]: BE.installToolPassword -> paste the hash-code
+
+6. Install DB [http://localhost:8000/phpmyadmin]
+  - Databases: 
+    - Select data-type: (typo3conf/LocalConfiguration.php -> DB.Connections.Default.tableoptions.collate)
+    - Write DB-name: only letters and underscore
+    - Click: Create
+  - Import: 
+    - Browse: downloaded .sql file
+    - Click: import
+
+7. TYPO3 InstallTool [http://localhost:8000/typo3/install.php]
+  - Analyze DB Structure
+  - Flush Cache
+  - Remove Temporary Assets
+  - Clear Persistent DB Tables
+  - Add Language (if necessary)
+
+8. .htaccess
+9. Check FE and BE
+10. Composer
+11. Upgrade Wizard
+12. Git
+

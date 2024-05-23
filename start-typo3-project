@@ -1,0 +1,36 @@
+# Start a TYPO3 Project
+
+1. Clone the project
+```bash
+  git clone <project-repo>
+  git remote rm origin
+  git remote add origin <new-repo>
+```
+
+2. Set paths and directories
+
+3. Install devenv
+```bash
+  devenv install
+```
+
+4. Install Composer
+```bash
+  composer install
+```
+
+5. Install TYPO3
+
+6. Import DB
+
+7. Start and update the project
+```bash
+  devenv start
+  composer update
+```
+
+8. Git Settings
+```bash
+  git checkout -b dev
+  git push origin dev
+```
