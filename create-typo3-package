@@ -4,7 +4,9 @@
 2. Create a directory in the root level named as  "packages"
 3. Move your extension into packages directory
 4. Define the version of your package: 
-    (packages/sitepackage/composer.json > below "keywords" ) -> "version": "1.0.0",
-5. Add your package using composer as in packages/sitepackage/composer.json > "name"
-  [Terminal] ddev composer require sitepackage
-6. Include sitepackage in TYPO3 Backend > TypoScript > Edit TypoScript Record > Edit the whole TS > Advanced Options
+        (packages/sitepackage/composer.json > below "keywords" ) -> "version": "1.0.0",
+5. Add repositories into root/composer.json
+        "repositories": [ { "type": "path", "url": "packages/*" }],
+6. Add your package using composer as in packages/sitepackage/composer.json > "name"
+        [Terminal] ddev composer require sitepackage
+7. Include sitepackage in TYPO3 Backend > TypoScript > Edit TypoScript Record > Edit the whole TS > Advanced Options
