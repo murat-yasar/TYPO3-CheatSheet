@@ -41,7 +41,7 @@
 ```
 
 6. Access TYPO3 via a web browser
-   Web Browser:  <localhost>/typo3/install.php
+   > [Web Browser]:  <localhost>/typo3/install.php
 
 7. Set admin configuration (username, password, etc
-   Web Browser:  <localhost>/typo3/install.php
+   > [Web Browser]:  <localhost>/typo3/install.php
