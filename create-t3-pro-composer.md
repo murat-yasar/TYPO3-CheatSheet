@@ -31,26 +31,10 @@
 ```
 
 5. Open the project in your web browser (open through Docker)
-   [Web Browser]: <localhost>/typo3/install.php
+   > [Web Browser]: <localhost>/typo3/install.php
 
 6. Set username, password, etc.
-   [Web Browser]: <localhost>/typo3/install.php
+   > [Web Browser]: <localhost>/typo3/install.php
 
 7. Access the Page
-   [Web Browser]: <localhost>/typo3
-   
-################################################
-
-# Set and Configure HomePage
-  [Web Browser]: <localhost>/typo3
-
-1. Access TYPO3 BE
-2. Create Home
-   - rightClick on projectRoot
-4. Enable the page (right-click on Home)
-5. Set Home as root
-   - rightClick on Home
-   - Behaviour > Miscellaneous > Use as Root Page
-6. Configure the template of the page
-   - TypoScript Module > Edit TypoScript Record
-   - Title, Description, Setup
+   > [Web Browser]: <localhost>/typo3
