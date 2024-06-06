@@ -18,11 +18,14 @@
 
 3. Configure Project
 ```bash
+   ddev config
    # Give the following answers when prompted:
 
    # Project name (t3example):
    # Docroot Location (current directory):
    public
+   # Create docroot .../public?:
+   Y
    # Project Type [php, typo3, ...] (php): 
    typo3
 ```
