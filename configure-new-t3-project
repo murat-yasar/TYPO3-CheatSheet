@@ -1,0 +1,15 @@
+# Configure a new typo3 project
+
+1. Set and Configure HomePage
+  > [Web Browser]: <localhost>/typo3
+2. Access TYPO3 BE
+3. Create Home
+   - rightClick on projectRoot
+4. Enable the page
+   - right-click on Home
+6. Set Home as root
+   - rightClick on Home
+   - Behaviour > Miscellaneous > Use as Root Page
+7. Configure the template of the page
+   - TypoScript Module > Edit TypoScript Record
+   - Title, Description, Setup
