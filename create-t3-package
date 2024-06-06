@@ -1,12 +1,40 @@
-# How to create an extension
+# How to create an extension in TYPO3
 
-1. Build sitepackage by using Sitepackage Builder ()
-2. Create a directory in the root level named as  "packages"
+1. Build sitepackage by using Sitepackage Builder
+   [SitePackage Builder](https://www.sitepackagebuilder.com/new/)
+   - TYPO3 version
+   - Base Package
+   - PackageName
+   - Description
+   - GitHub Repository
+   - Author
+   - Email
+   - Company (MuratYasar)
+   - HomePage (MuratYasar.com)
+
+2. Create a directory in the project-root named as  "packages"
+```bash
+   mkdir packages
+```
+
 3. Move your extension into packages directory
-4. Define the version of your package: 
-        (packages/sitepackage/composer.json > below "keywords" ) -> "version": "1.0.0",
-5. Add repositories into root/composer.json
-        "repositories": [ { "type": "path", "url": "packages/*" }],
-6. Add your package using composer as in packages/sitepackage/composer.json > "name"
-        [Terminal] ddev composer require sitepackage
-7. Include sitepackage in TYPO3 Backend > TypoScript > Edit TypoScript Record > Edit the whole TS > Advanced Options
+
+4. Configure composer.json file in the project-root
+```JSON
+   "repositories": [{ "type": "path", "url": "packages/*" }]
+```
+
+5. Configure the version of your package:
+   [packages/sitepackage/composer.json] > below "keywords"=>
+```JSON
+   "version": "1.0.0",
+```
+
+6. Add your package using composer 
+   as in packages/sitepackage/composer.json > "name" =>
+```bash
+   ddev composer require <sitepackage>
+```
+
+7. Include sitepackage in TYPO3 Backend:
+   [Browser](https://<localhost>/TYPO3): TypoScript > Edit TypoScript Record > Edit the whole TS > Advanced Options > Include TypoScript Sets
