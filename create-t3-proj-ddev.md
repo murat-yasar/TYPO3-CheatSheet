@@ -7,8 +7,8 @@
 
 1. Create the project directory
 ```bash
-   mkdir my-t3-project
-   cd my-t3-project
+   mkdir <project-name>
+   cd <project-name>
 ```
 
 2. Install project with DDEV
@@ -37,8 +37,11 @@
 
 5. Install server with GUI
 ```bash
-   touch /public/FIRST_INSTALL
+   touch public/FIRST_INSTALL
 ```
 
-6. Access TYPO3 via a web browser (Set username, password, etc.)
-Web Browser:  http://127.0.0.1:50503/typo3/install.php
+6. Access TYPO3 via a web browser
+   Web Browser:  <localhost>/typo3/install.php
+
+7. Set admin configuration (username, password, etc
+   Web Browser:  <localhost>/typo3/install.php
