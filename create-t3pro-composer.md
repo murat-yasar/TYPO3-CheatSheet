@@ -1,4 +1,4 @@
-# Start A Typo3 Project
+# Create A Typo3 Project
 
 ## 0. Requirements
 
@@ -27,7 +27,7 @@
 
 4. Initialize Configuration
 ```bash
-   touch <project-name>/public/FIRST_INSTALL
+   touch public/FIRST_INSTALL
 ```
 
 5. Open the project in your web browser (open through Docker)
